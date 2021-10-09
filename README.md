@@ -1,6 +1,12 @@
 Thesis work...
 
-In this work, we have used crest as concolic execution tool and PAT (Process Analysis Toolkit) as the CSP model checker.
+In this work, we have used crest as concolic execution tool and PAT (Process Analysis Toolkit) as the CSP model checker. Please note that a part of this project needs a modified version of crest.
+
+# Installation
+	1. `It requires a modified version of crest, to get that please email at pkalita@cse.iitk.ac.in.`
+	2. `Please install PAT, from the link given in Important material section.`
+	3. `After successful installation of crest and PAT, please set the variables 'crest_dir' and 'pat_dir' in the file src/Verifier.py.`
+	4. `To see the usage run 'python3 Verifier.py --help'.`
 
 # Important material
 ## 1. PAT

@@ -1,4 +1,0 @@
-	../src/main_gui.c \
-	../src/frontend/interface.c \
-	../src/frontend/callbacks.c \
-	../src/frontend/support.c \

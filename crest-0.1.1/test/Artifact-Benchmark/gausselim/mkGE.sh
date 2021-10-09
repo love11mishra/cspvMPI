@@ -1,1 +1,0 @@
-mpisecc.sh GE.c

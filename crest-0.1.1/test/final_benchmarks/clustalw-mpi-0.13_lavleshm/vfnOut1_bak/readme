@@ -1,1 +1,0 @@
-use ulimit -n 65535, if can not create file error shows

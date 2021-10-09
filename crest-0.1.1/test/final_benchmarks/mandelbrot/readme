@@ -1,2 +1,0 @@
-If you are getting an error as:
-Too many open files, then use command: ulimit -n 50000
