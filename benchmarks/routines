@@ -1,0 +1,45 @@
+miniFE --written in c++
+======
+miniFE/ref:
+1. MPI_Bcast()
+2. MPI_Allreduce()
+3. MPI_Reduce()
+4. MPI_Allgather()
+5. MPI_Allgatherv()
+
+miniAMR --written in c
+======
+1. MPI_Allreduce()
+2. MPI_Bcast()
+3. MPI_Waitany()
+4. MPI_Alltoall()
+5. MPI_Barrier()
+6. MPI_Abort()
+
+ALCF_MPI_Benchmark_v1.02.BGQ --written in c
+======
+uses MPIX: Blue Gene/Q specific extensions to MPI
+1. MPI_Bcast()
+2. MPI_Allreduce()
+3. MPI_Comm_group()
+4. MPI_Comm_split()
+5. MPI_Reduce()
+6. MPI_Barrier()
+7. MPI_Waitall()
+
+kmi_hash_coral --written in c
+======
+0. wild card MPI_ANY_SOURCE is used in src/query.c
+1. MPI_Allreduce()
+2. MPI_Allgather()
+3. MPI_Alltoall()
+4. MPI_Alltoallv()
+5. MPI_Barrier()
+6. MPI_Waitall()
+7. MPI_Testany()
+8. MPI_Status_set_elements()
+9. MPI_Test()
+10. MPI_Grequest_start()
+11. MPI_Grequest_complete()
+12. MPI_Get_count()
+13. MPI_Reduce() 

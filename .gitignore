@@ -1,0 +1,55 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# others
+*.java
+*.class
+*__pycache__*
+**.o
+*.vscode*
+**/examples/dump.txt
+.idea
+*.i
+*.cil.c
+*.cil.i
+**/cfg
+**/branches
+**/cfg_branches
+**/cfg_func_map
+**/coverage
+**/funcount
+**/idcount
+**/input
+**/szd_execution
+**/trace.txt
+**/stmtcount

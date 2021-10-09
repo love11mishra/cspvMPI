@@ -1,0 +1,38 @@
+=======================================================
+Assertion: Prog() deadlockfree
+********Verification Result********
+The Assertion (Prog() deadlockfree) is VALID.
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: First Witness Trace using Depth First Search
+System Abstraction: False
+
+
+********Verification Statistics********
+Visited States:13059
+Total Transitions:50175
+Time Used:0.1727894s
+Estimated Memory Used:9848.592KB
+
+
+=======================================================
+Assertion: Prog1() deadlockfree
+********Verification Result********
+The Assertion (Prog1() deadlockfree) is NOT valid.
+The following trace leads to a deadlock situation.
+<init -> τ -> MPI_Send_4_2_0_60_starts -> [if((40 > threshold))] -> MPI_Recv_3_1_0_55_starts -> [if((40 > threshold))] -> MPI_Recv_2_A_0_50_starts -> [if((40 > threshold))] -> ch_4_2_0_s.[40] -> MPI_Send_4_2_0_60_ends -> τ -> MPI_Recv_2_A_0_50_ends -> MPI_Send_2_0_0_51_starts -> [if((40 > threshold))] -> MPI_Send_1_0_0_45_starts -> [if((40 > threshold))] -> MPI_Recv_0_A_0_39_starts -> [if((40 > threshold))] -> ch_2_0_0_s.[40] -> MPI_Send_2_0_0_51_ends -> τ -> MPI_Recv_0_A_0_39_ends -> MPI_Send_0_3_0_40_starts -> [if((40 > threshold))]>
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: First Witness Trace using Depth First Search
+System Abstraction: False
+
+
+********Verification Statistics********
+Visited States:59
+Total Transitions:58
+Time Used:0.0013314s
+Estimated Memory Used:8518.4KB
+
+

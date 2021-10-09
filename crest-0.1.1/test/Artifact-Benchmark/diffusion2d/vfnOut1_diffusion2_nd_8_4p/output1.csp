@@ -1,0 +1,68 @@
+//@@MpiTrace@@
+
+channel ch_2_0_0_s 0;
+channel ch_2_0_0 2;
+channel ch_2_0_1_s 0;
+channel ch_2_0_1 2;
+channel ch_1_0_0_s 0;
+channel ch_1_0_1_s 0;
+channel ch_1_0_1 1;
+channel ch_1_0_0 1;
+channel ch_3_0_1 1;
+channel ch_3_0_0_s 0;
+channel ch_3_0_1_s 0;
+channel ch_3_0_0 1;
+
+var threshold = 131072;
+var exit_ = false;
+var num_procs = 4;
+var SendBuf_2_0_0_37 = [8];
+var SendBuf_2_0_1_37 = [8];
+var c1140850688 = 0;
+var RecvBuf_0_A_A_63[1];
+var SendBuf_3_0_0_37 = [8];
+var SendBuf_1_0_0_37 = [8];
+var SendBuf_3_0_1_37 = [8];
+var SendBuf_1_0_1_37 = [8];
+
+// Line 37
+MPI_Send_2_0_0_37() = MPI_Send_2_0_0_37_starts -> if( 8 > threshold ) { ch_2_0_0_s!SendBuf_2_0_0_37 -> MPI_Send_2_0_0_37_ends -> Skip } else { ch_2_0_0!SendBuf_2_0_0_37 -> MPI_Send_2_0_0_37_ends -> Skip };
+// Line 37
+MPI_Send_2_0_1_37() = MPI_Send_2_0_1_37_starts -> if( 8 > threshold ) { ch_2_0_1_s!SendBuf_2_0_1_37 -> MPI_Send_2_0_1_37_ends -> Skip } else { ch_2_0_1!SendBuf_2_0_1_37 -> MPI_Send_2_0_1_37_ends -> Skip };
+// Line 187
+MPI_Barrier_2_1140850688() = MPI_Barrier_2_1140850688_starts -> {c1140850688++} -> ([c1140850688 %  num_procs == 0]e1140850688 -> Skip);
+// Line 63
+MPI_Recv_0_A_A_63() = MPI_Recv_0_A_A_63_starts -> if( 8 > threshold ) { ch_3_0_1_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_3_0_0_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_2_0_1_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_2_0_0_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_1_0_1_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_1_0_0_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip }
+					else { ch_3_0_1?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip [] ch_3_0_1_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_3_0_0?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip [] ch_3_0_0_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_2_0_1?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip [] ch_2_0_1_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_2_0_0?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip [] ch_2_0_0_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_1_0_1?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip [] ch_1_0_1_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip []
+					ch_1_0_0?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip [] ch_1_0_0_s?[x[0] <= 8]x ->{RecvBuf_0_A_A_63 = x} -> MPI_Recv_0_A_A_63_ends -> Skip };
+// Line 37
+MPI_Send_3_0_0_37() = MPI_Send_3_0_0_37_starts -> if( 8 > threshold ) { ch_3_0_0_s!SendBuf_3_0_0_37 -> MPI_Send_3_0_0_37_ends -> Skip } else { ch_3_0_0!SendBuf_3_0_0_37 -> MPI_Send_3_0_0_37_ends -> Skip };
+// Line 37
+MPI_Send_1_0_0_37() = MPI_Send_1_0_0_37_starts -> if( 8 > threshold ) { ch_1_0_0_s!SendBuf_1_0_0_37 -> MPI_Send_1_0_0_37_ends -> Skip } else { ch_1_0_0!SendBuf_1_0_0_37 -> MPI_Send_1_0_0_37_ends -> Skip };
+// Line 37
+MPI_Send_3_0_1_37() = MPI_Send_3_0_1_37_starts -> if( 8 > threshold ) { ch_3_0_1_s!SendBuf_3_0_1_37 -> MPI_Send_3_0_1_37_ends -> Skip } else { ch_3_0_1!SendBuf_3_0_1_37 -> MPI_Send_3_0_1_37_ends -> Skip };
+// Line 187
+MPI_Barrier_3_1140850688() = MPI_Barrier_3_1140850688_starts -> {c1140850688++} -> ([c1140850688 %  num_procs == 0]e1140850688 -> Skip);
+// Line 37
+MPI_Send_1_0_1_37() = MPI_Send_1_0_1_37_starts -> if( 8 > threshold ) { ch_1_0_1_s!SendBuf_1_0_1_37 -> MPI_Send_1_0_1_37_ends -> Skip } else { ch_1_0_1!SendBuf_1_0_1_37 -> MPI_Send_1_0_1_37_ends -> Skip };
+// Line 187
+MPI_Barrier_1_1140850688() = MPI_Barrier_1_1140850688_starts -> {c1140850688++} -> ([c1140850688 %  num_procs == 0]e1140850688 -> Skip);
+
+P2() = (MPI_Send_2_0_0_37(); MPI_Send_2_0_1_37(); MPI_Barrier_2_1140850688())[][exit_ == true]Skip;
+P0() = (MPI_Recv_0_A_A_63(); MPI_Recv_0_A_A_63(); MPI_Recv_0_A_A_63(); MPI_Recv_0_A_A_63(); MPI_Recv_0_A_A_63(); MPI_Recv_0_A_A_63(); MPI_Recv_0_A_A_63())[][exit_ == true]Skip;
+P3() = (MPI_Send_3_0_0_37(); MPI_Send_3_0_1_37(); MPI_Barrier_3_1140850688())[][exit_ == true]Skip;
+P1() = (MPI_Send_1_0_0_37(); MPI_Send_1_0_1_37(); MPI_Barrier_1_1140850688())[][exit_ == true]Skip;
+Prog() = P2() || P0() || P3() || P1();
+Prog1() = {threshold = 0} -> Prog();
+
+#assert Prog() deadlockfree;
+#assert Prog1() deadlockfree;

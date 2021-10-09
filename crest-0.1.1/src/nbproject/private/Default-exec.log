@@ -1,0 +1,12 @@
+called: g++
+	/home/subhajit/BugInjection/crest/crest-0.1.1/src
+	g++
+	-I.
+	-I/home/subhajit/tools/yices/yices-1.0.39/include
+	-Wall
+	-O2
+	-c
+	-o
+	libcrest/crest.o
+	libcrest/crest.cc
+

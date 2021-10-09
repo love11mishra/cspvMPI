@@ -1,0 +1,36 @@
+=======================================================
+Assertion: Prog() deadlockfree
+********Verification Result********
+The Assertion (Prog() deadlockfree) is VALID.
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: First Witness Trace using Depth First Search
+System Abstraction: False
+
+
+********Verification Statistics********
+Visited States:49945
+Total Transitions:224306
+Time Used:1.258229s
+Estimated Memory Used:14370.432KB
+
+
+=======================================================
+Assertion: Prog1() deadlockfree
+********Verification Result********
+The Assertion (Prog1() deadlockfree) is VALID.
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: First Witness Trace using Depth First Search
+System Abstraction: False
+
+
+********Verification Statistics********
+Visited States:49946
+Total Transitions:224307
+Time Used:1.2155383s
+Estimated Memory Used:10935.76KB
+
+

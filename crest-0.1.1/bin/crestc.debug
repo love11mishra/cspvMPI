@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+DIR=`dirname $0`/..
+CILLY=${DIR}/cil/bin/cilly
+
+echo $CILLY
+#CILLY=cilly
+
+TARGET=`expr $1 : '\(.*\)\.c'`
+
+rm -f idcount stmtcount funcount cfg_func_map cfg branches cfg_branches
+
+#${CILLY} $1 -o ${TARGET} --save-temps --doCrestInstrument \
+#    -I${DIR}/include -L${DIR}/lib -lcrest -lstdc++ -g
+
+${CILLY} $1 -o ${TARGET} --save-temps --doCrestInstrument $2 \
+    -I${DIR}/include \
+	-I/home/lavleshm/mpich-install/include \
+	-L/home/lavleshm/mpich-install/lib -lmpich \
+    -L${DIR}/lib -lcrest -lstdc++ -lm	
+	#-I/home/lavleshm/Academic/mpi_verify/ipmpi/include \
+	#-L/home/lavleshm/Academic/mpi_verify/ipmpi/lib -lipmpi \
+
+${DIR}/bin/process_cfg
+echo $2 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_expression.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_interpreter.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/run_crest/concolic_search.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/Makefile.debug</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/run_crest/concolic_search.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_path.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_interpreter.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/basic_types.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_expression.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/libcrest/crest.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/Makefile</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_path.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/basic_types.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_predicate.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_execution.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_execution.cc</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/libcrest/crest.h</file>
+            <file>file:/home/subhajit/BugInjection/crest/crest-0.1.1/src/base/symbolic_predicate.h</file>
+        </group>
+    </open-files>
+</project-private>

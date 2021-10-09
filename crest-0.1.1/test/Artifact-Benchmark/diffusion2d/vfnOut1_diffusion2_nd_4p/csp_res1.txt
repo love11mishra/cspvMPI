@@ -1,0 +1,38 @@
+=======================================================
+Assertion: Prog() deadlockfree
+********Verification Result********
+The Assertion (Prog() deadlockfree) is VALID.
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: First Witness Trace using Depth First Search
+System Abstraction: False
+
+
+********Verification Statistics********
+Visited States:308138
+Total Transitions:1152985
+Time Used:5.7348337s
+Estimated Memory Used:35114.864KB
+
+
+=======================================================
+Assertion: Prog1() deadlockfree
+********Verification Result********
+The Assertion (Prog1() deadlockfree) is NOT valid.
+The following trace leads to a deadlock situation.
+<init -> τ -> MPI_Send_1_0_0_39_starts -> [if((8 > threshold))] -> MPI_Send_3_0_0_39_starts -> [if((8 > threshold))] -> MPI_Recv_0_A_A_65_starts -> [if((8 > threshold))] -> ch_1_0_0_s.[8] -> MPI_Send_1_0_0_39_ends -> MPI_Send_1_0_1_39_starts -> [if((8 > threshold))] -> τ -> MPI_Recv_0_A_A_65_ends -> MPI_Recv_0_A_A_65_starts -> [if((8 > threshold))] -> ch_1_0_1_s.[8] -> MPI_Send_1_0_1_39_ends -> MPI_Barrier_1_1140850688_starts -> τ -> τ -> MPI_Recv_0_A_A_65_ends -> MPI_Recv_0_A_A_65_starts -> [if((8 > threshold))] -> ch_3_0_0_s.[8] -> MPI_Send_3_0_0_39_ends -> MPI_Send_3_0_1_39_starts -> [if((8 > threshold))] -> τ -> MPI_Recv_0_A_A_65_ends -> MPI_Recv_0_A_A_65_starts -> [if((8 > threshold))] -> ch_3_0_1_s.[8] -> MPI_Send_3_0_1_39_ends -> MPI_Barrier_3_1140850688_starts -> τ -> τ -> MPI_Recv_0_A_A_65_ends -> MPI_Recv_0_A_A_65_starts -> [if((8 > threshold))] -> MPI_Send_2_0_0_39_starts -> [if((8 > threshold))] -> ch_2_0_0_s.[8] -> τ -> MPI_Recv_0_A_A_65_ends -> MPI_Recv_0_A_A_65_starts -> [if((8 > threshold))] -> MPI_Send_2_0_0_39_ends -> MPI_Send_2_0_1_39_starts -> [if((8 > threshold))] -> ch_2_0_1_s.[8] -> τ -> MPI_Recv_0_A_A_65_ends -> MPI_Barrier_0_1140850688_starts -> τ -> MPI_Send_2_0_1_39_ends -> MPI_Barrier_2_1140850688_starts -> τ -> e1140850688 -> MPI_Send_1_3_0_117_starts -> [if((8 > threshold))] -> MPI_Send_3_1_0_117_starts -> [if((8 > threshold))] -> MPI_Send_0_2_0_117_starts -> [if((8 > threshold))] -> MPI_Send_2_0_0_39_starts -> [if((8 > threshold))]>
+
+********Verification Setting********
+Admissible Behavior: All
+Search Engine: First Witness Trace using Depth First Search
+System Abstraction: False
+
+
+********Verification Statistics********
+Visited States:145
+Total Transitions:144
+Time Used:0.0025855s
+Estimated Memory Used:8528KB
+
+

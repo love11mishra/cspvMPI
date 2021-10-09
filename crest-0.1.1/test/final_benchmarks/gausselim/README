@@ -1,0 +1,40 @@
+This directroy contains several versions of a linear system solvers using
+gaussian-jordan elimination method which are all functional equivalent.
+
+The structure of the directory is:
+gausselim/
+  README
+  gausselim_std/
+    Makefile
+    gausselim_spec.c      /* A sequential gaussian-jordan elimination solver
+                           * with standard input and output stream. */
+    gausselim_rowdist.c   /* A parallel gaussian-jordan elimination solver
+                           * with standard input and output stream.
+                           * Each process will hold one row of the linear 
+                           * system matrix. Outputs are in the reduced 
+                           * row-echelon form. */
+    gausselim_striperows.c/* A parallel gaussian-jordan elimination solver
+                           * with standard input and output stream.
+                           * Each process will hold multiple rows of the linear 
+                           * system matrix. Outputs are in the reduced 
+                           * row-echelon form. */
+    gausselim_bad.c       /* A buggy version of gausian-jordan elimination solver */
+  gausselim_io/
+    Makefile
+    gausselim_spec_io.c      /* A sequential gaussian-jordan elimination solver
+                              * with file input and output. */
+    gausselim_rowdist_io.c   /* A parallel gaussian-jordan elimination solver
+                              * with file input and output.
+                              * Each process will hold one row of the linear 
+                              * system matrix. Outputs are in the reduced 
+                              * row-echelon form. */
+    gausselim_striperows_io.c/* A parallel gaussian-jordan elimination solver
+                              * with file input and output.
+                              * Each process will hold multiple rows of the linear 
+                              * system matrix. Outputs are in the reduced 
+                              * row-echelon form. */
+    gausselim_bad_io.c       /* A buggy version of gausian-jordan elimination solver with 
+    			      * file input and output */   
+
+Make: Type "make" in target directory will run different versions of solvers and compare
+      outputs of parallel and sequential solvers

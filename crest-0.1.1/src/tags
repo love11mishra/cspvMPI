@@ -1,0 +1,429 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD	base/basic_types.h	/^enum binary_op_t { ADD, SUBTRACT, MULTIPLY, CONCRETE };$/;"	e	enum:crest::ops::binary_op_t
+AppendToString	base/symbolic_expression.cc	/^    void SymbolicExpr::AppendToString(string* s, int tp) const {$/;"	f	class:crest::SymbolicExpr
+AppendToString	base/symbolic_predicate.cc	/^void SymbolicPred::AppendToString(string* s) const {$/;"	f	class:crest::SymbolicPred
+AppendVars	base/symbolic_expression.cc	/^    void SymbolicExpr::AppendVars(set<var_t>* vars) const {$/;"	f	class:crest::SymbolicExpr
+AppendVars	base/symbolic_predicate.h	/^  void AppendVars(set<var_t>* vars) const {$/;"	f	class:crest::SymbolicPred
+ApplyBinaryOp	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ApplyBinaryOp(id_t id, binary_op_t op, value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+ApplyCompareOp	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ApplyCompareOp(id_t id, compare_op_t op, value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+ApplyLogPC	base/symbolic_interpreter.cc	/^void SymbolicInterpreter::ApplyLogPC(int x) {$/;"	f	class:crest::SymbolicInterpreter
+ApplyLogPC_gdb	base/symbolic_interpreter.cc	/^void SymbolicInterpreter::ApplyLogPC_gdb(int x) {$/;"	f	class:crest::SymbolicInterpreter
+ApplyLogSpec	base/symbolic_interpreter.cc	/^void SymbolicInterpreter::ApplyLogSpec(char *op,int *op1,int *op2) {$/;"	f	class:crest::SymbolicInterpreter
+ApplyLogState	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ApplyLogState(int x, int r_w, int line, char *varname=NULL, int val=0 ,int *a=NULL) {\/\/aakanksha$/;"	f	class:crest::SymbolicInterpreter
+ApplyLogState_1	base/symbolic_interpreter.cc	/^void SymbolicInterpreter::ApplyLogState_1(int x) {\/\/ aakanksha$/;"	f	class:crest::SymbolicInterpreter
+ApplyLogState_gdb	base/symbolic_interpreter.cc	/^void SymbolicInterpreter::ApplyLogState_gdb(int x) {\/\/ aakanksha$/;"	f	class:crest::SymbolicInterpreter
+ApplyUnaryOp	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ApplyUnaryOp(id_t id, unary_op_t op, value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+BASE_BASIC_TYPES_H__	base/basic_types.h	12;"	d
+BASE_LIBS	Makefile	/^BASE_LIBS = base\/basic_types.o base\/symbolic_execution.o \\$/;"	m
+BASE_SYMBOLIC_EXECUTION_H__	base/symbolic_execution.h	12;"	d
+BASE_SYMBOLIC_EXPRESSION_H__	base/symbolic_expression.h	12;"	d
+BASE_SYMBOLIC_INTERPRETER_H__	base/symbolic_interpreter.h	12;"	d
+BASE_SYMBOLIC_PATH_H__	base/symbolic_path.h	12;"	d
+BASE_SYMBOLIC_PREDICATE_H__	base/symbolic_predicate.h	12;"	d
+BASE_YICES_SOLVER_H__	base/yices_solver.h	12;"	d
+BITWISE_NOT	base/basic_types.h	/^enum unary_op_t { NEGATE, LOGICAL_NOT, BITWISE_NOT };$/;"	e	enum:crest::ops::unary_op_t
+BoundedDepthFirstSearch	run_crest/concolic_search.cc	/^BoundedDepthFirstSearch::BoundedDepthFirstSearch$/;"	f	class:crest::BoundedDepthFirstSearch
+BoundedDepthFirstSearch	run_crest/concolic_search.h	/^class BoundedDepthFirstSearch : public Search {$/;"	c	namespace:crest
+Branch	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::Branch(id_t id, branch_id_t bid, bool pred_value) {$/;"	f	class:crest::SymbolicInterpreter
+BranchIt	process_cfg/process_cfg.cc	/^typedef set<int>::const_iterator BranchIt;$/;"	t	file:
+BranchIt	run_crest/concolic_search.h	/^  typedef vector<branch_id_t>::const_iterator BranchIt;$/;"	t	class:crest::Search
+CC	Makefile	/^CC=$(CXX) $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -I. -I$(YICES_DIR)\/include -Wall -O2$/;"	m
+CHAR	base/basic_types.h	/^enum type_t { U_CHAR = 0,       CHAR = 1,$/;"	e	enum:crest::types::type_t
+CONCRETE	base/basic_types.h	/^enum binary_op_t { ADD, SUBTRACT, MULTIPLY, CONCRETE };$/;"	e	enum:crest::ops::binary_op_t
+CREST_char	libcrest/crest.h	195;"	d
+CREST_char_trace	libcrest/crest.h	203;"	d
+CREST_get_time_stamp	libcrest/crest.h	215;"	d
+CREST_int	libcrest/crest.h	197;"	d
+CREST_intA	libcrest/crest.h	198;"	d
+CREST_int_trace	libcrest/crest.h	205;"	d
+CREST_int_trace_1	libcrest/crest.h	206;"	d
+CREST_log_pc	libcrest/crest.h	217;"	d
+CREST_log_pc_on_gdbquery	libcrest/crest.h	218;"	d
+CREST_log_spec	libcrest/crest.h	219;"	d
+CREST_log_state	libcrest/crest.h	213;"	d
+CREST_log_state_1	libcrest/crest.h	211;"	d
+CREST_log_state_gdb	libcrest/crest.h	212;"	d
+CREST_print	libcrest/crest.h	214;"	d
+CREST_print_input	libcrest/crest.h	216;"	d
+CREST_short	libcrest/crest.h	196;"	d
+CREST_short_trace	libcrest/crest.h	204;"	d
+CREST_unsigned_char	libcrest/crest.h	192;"	d
+CREST_unsigned_char_trace	libcrest/crest.h	200;"	d
+CREST_unsigned_int	libcrest/crest.h	194;"	d
+CREST_unsigned_int_trace	libcrest/crest.h	202;"	d
+CREST_unsigned_short	libcrest/crest.h	193;"	d
+CREST_unsigned_short_trace	libcrest/crest.h	201;"	d
+CREST_var_map	libcrest/crest.h	208;"	d
+CREST_var_map_1	libcrest/crest.h	209;"	d
+CREST_var_map_gdb	libcrest/crest.h	210;"	d
+CXXFLAGS	Makefile	/^CXXFLAGS = $(CFLAGS)$/;"	m
+Call	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::Call(id_t id, function_id_t fid) {$/;"	f	class:crest::SymbolicInterpreter
+CfgBaselineSearch	run_crest/concolic_search.cc	/^CfgBaselineSearch::CfgBaselineSearch(const string& program, int max_iterations)$/;"	f	class:crest::CfgBaselineSearch
+CfgBaselineSearch	run_crest/concolic_search.h	/^class CfgBaselineSearch : public Search {$/;"	c	namespace:crest
+CfgHeuristicSearch	run_crest/concolic_search.cc	/^CfgHeuristicSearch::CfgHeuristicSearch$/;"	f	class:crest::CfgHeuristicSearch
+CfgHeuristicSearch	run_crest/concolic_search.h	/^class CfgHeuristicSearch : public Search {$/;"	c	namespace:crest
+CheckPrediction	run_crest/concolic_search.cc	/^bool Search::CheckPrediction(const SymbolicExecution& old_ex,$/;"	f	class:crest::Search
+ClearAllMaps	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ClearAllMaps()$/;"	f	class:crest::SymbolicInterpreter
+ClearPredicateRegister	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ClearPredicateRegister() {$/;"	f	class:crest::SymbolicInterpreter
+ClearStack	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::ClearStack(id_t id) {$/;"	f	class:crest::SymbolicInterpreter
+CollectNextBranches	run_crest/concolic_search.cc	/^void CfgHeuristicSearch::CollectNextBranches$/;"	f	class:crest::CfgHeuristicSearch
+ConstIt	base/symbolic_expression.cc	/^    typedef map<var_t,value_t>::const_iterator ConstIt;$/;"	t	namespace:crest	file:
+ConstMemIt	base/symbolic_interpreter.cc	/^    typedef map<addr_t,SymbolicExpr*>::const_iterator ConstMemIt;$/;"	t	namespace:crest	file:
+CreateVarMap	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::CreateVarMap(addr_t addr, string* name, int tp, string* trigger) {$/;"	f	class:crest::SymbolicInterpreter
+DFS	run_crest/concolic_search.cc	/^void BoundedDepthFirstSearch::DFS(size_t pos, int depth, SymbolicExecution& prev_ex) {$/;"	f	class:crest::BoundedDepthFirstSearch
+DependsOn	base/symbolic_expression.cc	/^    bool SymbolicExpr::DependsOn(const map<var_t,type_t>& vars) const {$/;"	f	class:crest::SymbolicExpr
+DependsOn	base/symbolic_predicate.h	/^  bool DependsOn(const map<var_t,type_t>& vars) const {$/;"	f	class:crest::SymbolicPred
+DoBoundedBFS	run_crest/concolic_search.cc	/^bool CfgHeuristicSearch::DoBoundedBFS(int i, int depth, const SymbolicExecution& prev_ex) {$/;"	f	class:crest::CfgHeuristicSearch
+DoSearch	run_crest/concolic_search.cc	/^bool CfgBaselineSearch::DoSearch(int depth, int iters, int pos,$/;"	f	class:crest::CfgBaselineSearch
+DoSearch	run_crest/concolic_search.cc	/^bool CfgHeuristicSearch::DoSearch(int depth,$/;"	f	class:crest::CfgHeuristicSearch
+DoUniformRandomPath	run_crest/concolic_search.cc	/^void UniformRandomSearch::DoUniformRandomPath() {$/;"	f	class:crest::UniformRandomSearch
+DumpMemory	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::DumpMemory() {$/;"	f	class:crest::SymbolicInterpreter
+EQ	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	e	enum:crest::ops::compare_op_t
+EXTERN	libcrest/crest.h	110;"	d
+EXTERN	libcrest/crest.h	112;"	d
+Equal	base/symbolic_predicate.cc	/^bool SymbolicPred::Equal(const SymbolicPred& p) const {$/;"	f	class:crest::SymbolicPred
+FindAlongCfg	run_crest/concolic_search.cc	/^bool CfgHeuristicSearch::FindAlongCfg(size_t i, unsigned int dist,$/;"	f	class:crest::CfgHeuristicSearch
+FreeMap	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::FreeMap(map<addr_t,string*> z)$/;"	f	class:crest::SymbolicInterpreter
+GE	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	e	enum:crest::ops::compare_op_t
+GT	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	e	enum:crest::ops::compare_op_t
+GetTimeStamp	base/symbolic_interpreter.cc	/^    int  SymbolicInterpreter::GetTimeStamp() {\/\/aakanksha$/;"	f	class:crest::SymbolicInterpreter
+HandleReturn	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::HandleReturn(id_t id, value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+HybridSearch	run_crest/concolic_search.cc	/^HybridSearch::HybridSearch(const string& program, int max_iterations, int step_size)$/;"	f	class:crest::HybridSearch
+HybridSearch	run_crest/concolic_search.h	/^class HybridSearch : public Search {$/;"	c	namespace:crest
+IFDEBUG	base/symbolic_interpreter.cc	27;"	d	file:
+INT	base/basic_types.h	/^	      U_INT = 4,        INT = 5,$/;"	e	enum:crest::types::type_t
+IncrementalSolve	base/yices_solver.cc	/^bool YicesSolver::IncrementalSolve(const vector<value_t>& old_soln,$/;"	f	class:crest::YicesSolver
+IsConcrete	base/symbolic_expression.h	/^  bool IsConcrete() const { return coeff_.empty(); }$/;"	f	class:crest::SymbolicExpr
+It	base/symbolic_expression.cc	/^    typedef map<var_t,value_t>::iterator It;$/;"	t	namespace:crest	file:
+LDFLAGS	Makefile	/^LDFLAGS = -L$(YICES_DIR)\/lib$/;"	m
+LE	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	e	enum:crest::ops::compare_op_t
+LIBCREST_CREST_H__	libcrest/crest.h	13;"	d
+LOADLIBES	Makefile	/^LOADLIBES = -lyices -lrt$/;"	m
+LOGICAL_NOT	base/basic_types.h	/^enum unary_op_t { NEGATE, LOGICAL_NOT, BITWISE_NOT };$/;"	e	enum:crest::ops::unary_op_t
+LONG	base/basic_types.h	/^	      U_LONG = 6,       LONG = 7,$/;"	e	enum:crest::types::type_t
+LONG_LONG	base/basic_types.h	/^	      U_LONG_LONG = 8,  LONG_LONG = 9 };$/;"	e	enum:crest::types::type_t
+LT	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	e	enum:crest::ops::compare_op_t
+LaunchProgram	run_crest/concolic_search.cc	/^void Search::LaunchProgram(const vector<value_t>& inputs) {$/;"	f	class:crest::Search
+Load	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::Load(id_t id, addr_t addr, value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+MULTIPLY	base/basic_types.h	/^enum binary_op_t { ADD, SUBTRACT, MULTIPLY, CONCRETE };$/;"	e	enum:crest::ops::binary_op_t
+MinCflDistance	run_crest/concolic_search.cc	/^size_t CfgHeuristicSearch::MinCflDistance$/;"	f	class:crest::CfgHeuristicSearch
+NEGATE	base/basic_types.h	/^enum unary_op_t { NEGATE, LOGICAL_NOT, BITWISE_NOT };$/;"	e	enum:crest::ops::unary_op_t
+NEQ	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	e	enum:crest::ops::compare_op_t
+Negate	base/symbolic_expression.cc	/^    void SymbolicExpr::Negate() {$/;"	f	class:crest::SymbolicExpr
+Negate	base/symbolic_predicate.cc	/^void SymbolicPred::Negate() {$/;"	f	class:crest::SymbolicPred
+NegateCompareOp	base/basic_types.cc	/^compare_op_t NegateCompareOp(compare_op_t op) {$/;"	f	namespace:crest
+NewInput	base/symbolic_interpreter.cc	/^    value_t SymbolicInterpreter::NewInput(type_t type, addr_t addr) {$/;"	f	class:crest::SymbolicInterpreter
+NewInputTemp	base/symbolic_interpreter.cc	/^    value_t SymbolicInterpreter::NewInputTemp(type_t type, addr_t addr, value_t val) {$/;"	f	class:crest::SymbolicInterpreter
+NewInputValue	base/symbolic_interpreter.cc	/^    value_t SymbolicInterpreter::NewInputValue(type_t type, addr_t addr, value_t v) {$/;"	f	class:crest::SymbolicInterpreter
+Parse	base/symbolic_execution.cc	/^bool SymbolicExecution::Parse(istream& s) {$/;"	f	class:crest::SymbolicExecution
+Parse	base/symbolic_expression.cc	/^    bool SymbolicExpr::Parse(istream& s) {$/;"	f	class:crest::SymbolicExpr
+Parse	base/symbolic_path.cc	/^bool SymbolicPath::Parse(istream& s) {$/;"	f	class:crest::SymbolicPath
+Parse	base/symbolic_predicate.cc	/^bool SymbolicPred::Parse(istream& s) {$/;"	f	class:crest::SymbolicPred
+PredIt	base/yices_solver.cc	/^typedef vector<const SymbolicPred*>::const_iterator PredIt;$/;"	t	namespace:crest	file:
+PrintInput	base/symbolic_interpreter.cc	/^    void  SymbolicInterpreter::PrintInput(char *name, int val) {\/\/aakanksha$/;"	f	class:crest::SymbolicInterpreter
+PrintStats	run_crest/concolic_search.cc	/^void CfgHeuristicSearch::PrintStats() {$/;"	f	class:crest::CfgHeuristicSearch
+Push	base/symbolic_path.cc	/^void SymbolicPath::Push(branch_id_t bid) {$/;"	f	class:crest::SymbolicPath
+Push	base/symbolic_path.cc	/^void SymbolicPath::Push(branch_id_t bid, SymbolicPred* constraint) {$/;"	f	class:crest::SymbolicPath
+PushConcrete	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::PushConcrete(value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+PushSymbolic	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::PushSymbolic(SymbolicExpr* expr, value_t value) {$/;"	f	class:crest::SymbolicInterpreter
+RUN_CREST_CONCOLIC_SEARCH_H__	run_crest/concolic_search.h	12;"	d
+RandomInput	run_crest/concolic_search.cc	/^void Search::RandomInput(const map<var_t,type_t>& vars, vector<value_t>* input) {$/;"	f	class:crest::Search
+RandomInputSearch	run_crest/concolic_search.cc	/^RandomInputSearch::RandomInputSearch(const string& program, int max_iterations)$/;"	f	class:crest::RandomInputSearch
+RandomInputSearch	run_crest/concolic_search.h	/^class RandomInputSearch : public Search {$/;"	c	namespace:crest
+RandomLocalSearch	run_crest/concolic_search.cc	/^void HybridSearch::RandomLocalSearch(SymbolicExecution *ex, size_t start, size_t end) {$/;"	f	class:crest::HybridSearch
+RandomSearch	run_crest/concolic_search.cc	/^RandomSearch::RandomSearch(const string& program, int max_iterations)$/;"	f	class:crest::RandomSearch
+RandomSearch	run_crest/concolic_search.h	/^class RandomSearch : public Search {$/;"	c	namespace:crest
+RandomStep	run_crest/concolic_search.cc	/^bool HybridSearch::RandomStep(SymbolicExecution *ex, size_t start, size_t end) {$/;"	f	class:crest::HybridSearch
+Return	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::Return(id_t id) {$/;"	f	class:crest::SymbolicInterpreter
+Run	run_crest/concolic_search.cc	/^void BoundedDepthFirstSearch::Run() {$/;"	f	class:crest::BoundedDepthFirstSearch
+Run	run_crest/concolic_search.cc	/^void CfgBaselineSearch::Run() {$/;"	f	class:crest::CfgBaselineSearch
+Run	run_crest/concolic_search.cc	/^void CfgHeuristicSearch::Run() {$/;"	f	class:crest::CfgHeuristicSearch
+Run	run_crest/concolic_search.cc	/^void HybridSearch::Run() {$/;"	f	class:crest::HybridSearch
+Run	run_crest/concolic_search.cc	/^void RandomInputSearch::Run() {$/;"	f	class:crest::RandomInputSearch
+Run	run_crest/concolic_search.cc	/^void RandomSearch::Run() {$/;"	f	class:crest::RandomSearch
+Run	run_crest/concolic_search.cc	/^void UniformRandomSearch::Run() {$/;"	f	class:crest::UniformRandomSearch
+RunProgram	run_crest/concolic_search.cc	/^void Search::RunProgram(const vector<value_t>& inputs, SymbolicExecution* ex) {$/;"	f	class:crest::Search
+SHORT	base/basic_types.h	/^	      U_SHORT = 2,      SHORT = 3,$/;"	e	enum:crest::types::type_t
+SI	libcrest/crest.cc	/^static SymbolicInterpreter* SI;$/;"	v	file:
+SUBTRACT	base/basic_types.h	/^enum binary_op_t { ADD, SUBTRACT, MULTIPLY, CONCRETE };$/;"	e	enum:crest::ops::binary_op_t
+ScoredBranch	run_crest/concolic_search.cc	/^typedef pair<size_t,int> ScoredBranch;$/;"	t	namespace:crest::__anon2	file:
+ScoredBranchComp	run_crest/concolic_search.cc	/^struct ScoredBranchComp$/;"	s	namespace:crest::__anon2	file:
+Search	run_crest/concolic_search.cc	/^Search::Search(const string& program, int max_iterations)$/;"	f	class:crest::Search
+Search	run_crest/concolic_search.h	/^class Search {$/;"	c	namespace:crest
+Serialize	base/symbolic_execution.cc	/^void SymbolicExecution::Serialize(string* s) const {$/;"	f	class:crest::SymbolicExecution
+Serialize	base/symbolic_expression.cc	/^    void SymbolicExpr::Serialize(string* s) const {$/;"	f	class:crest::SymbolicExpr
+Serialize	base/symbolic_path.cc	/^void SymbolicPath::Serialize(string* s) const {$/;"	f	class:crest::SymbolicPath
+Serialize	base/symbolic_predicate.cc	/^void SymbolicPred::Serialize(string* s) const {$/;"	f	class:crest::SymbolicPred
+Size	base/symbolic_expression.h	/^  size_t Size() const { return (1 + coeff_.size()); }$/;"	f	class:crest::SymbolicExpr
+SkipUntilReturn	run_crest/concolic_search.cc	/^void CfgHeuristicSearch::SkipUntilReturn(const vector<branch_id_t> path, size_t* pos) {$/;"	f	class:crest::CfgHeuristicSearch
+Solve	base/yices_solver.cc	/^bool YicesSolver::Solve(const map<var_t,type_t>& vars,$/;"	f	class:crest::YicesSolver
+SolveAlongCfg	run_crest/concolic_search.cc	/^bool CfgHeuristicSearch::SolveAlongCfg(size_t i, unsigned int max_dist,$/;"	f	class:crest::CfgHeuristicSearch
+SolveAtBranch	run_crest/concolic_search.cc	/^bool Search::SolveAtBranch(const SymbolicExecution& ex,$/;"	f	class:crest::Search
+SolveRandomBranch	run_crest/concolic_search.cc	/^  bool RandomSearch::SolveRandomBranch(vector<value_t>* next_input, size_t* idx) {$/;"	f	class:crest::RandomSearch
+SolveUncoveredBranches	run_crest/concolic_search.cc	/^void RandomSearch::SolveUncoveredBranches(size_t i, int depth,$/;"	f	class:crest::RandomSearch
+StackElem	base/symbolic_interpreter.h	/^  struct StackElem {$/;"	s	class:crest::SymbolicInterpreter
+Store	base/symbolic_interpreter.cc	/^    void SymbolicInterpreter::Store(id_t id, addr_t addr) {$/;"	f	class:crest::SymbolicInterpreter
+Swap	base/symbolic_execution.cc	/^void SymbolicExecution::Swap(SymbolicExecution& se) {$/;"	f	class:crest::SymbolicExecution
+Swap	base/symbolic_path.cc	/^void SymbolicPath::Swap(SymbolicPath& sp) {$/;"	f	class:crest::SymbolicPath
+SymbolicExecution	base/symbolic_execution.cc	/^SymbolicExecution::SymbolicExecution() { }$/;"	f	class:crest::SymbolicExecution
+SymbolicExecution	base/symbolic_execution.cc	/^SymbolicExecution::SymbolicExecution(bool pre_allocate)$/;"	f	class:crest::SymbolicExecution
+SymbolicExecution	base/symbolic_execution.h	/^class SymbolicExecution {$/;"	c	namespace:crest
+SymbolicExpr	base/symbolic_expression.cc	/^    SymbolicExpr::SymbolicExpr() : const_(0) { }$/;"	f	class:crest::SymbolicExpr
+SymbolicExpr	base/symbolic_expression.cc	/^    SymbolicExpr::SymbolicExpr(const SymbolicExpr& e)$/;"	f	class:crest::SymbolicExpr
+SymbolicExpr	base/symbolic_expression.cc	/^    SymbolicExpr::SymbolicExpr(value_t c) : const_(c) { }$/;"	f	class:crest::SymbolicExpr
+SymbolicExpr	base/symbolic_expression.cc	/^    SymbolicExpr::SymbolicExpr(value_t c, var_t v) : const_(0) {$/;"	f	class:crest::SymbolicExpr
+SymbolicExpr	base/symbolic_expression.h	/^class SymbolicExpr {$/;"	c	namespace:crest
+SymbolicInterpreter	base/symbolic_interpreter.cc	/^    SymbolicInterpreter::SymbolicInterpreter()$/;"	f	class:crest::SymbolicInterpreter
+SymbolicInterpreter	base/symbolic_interpreter.cc	/^    SymbolicInterpreter::SymbolicInterpreter(const vector<value_t>& input)$/;"	f	class:crest::SymbolicInterpreter
+SymbolicInterpreter	base/symbolic_interpreter.h	/^class SymbolicInterpreter {$/;"	c	namespace:crest
+SymbolicPath	base/symbolic_path.cc	/^SymbolicPath::SymbolicPath() { }$/;"	f	class:crest::SymbolicPath
+SymbolicPath	base/symbolic_path.cc	/^SymbolicPath::SymbolicPath(bool pre_allocate) {$/;"	f	class:crest::SymbolicPath
+SymbolicPath	base/symbolic_path.h	/^class SymbolicPath {$/;"	c	namespace:crest
+SymbolicPred	base/symbolic_predicate.cc	/^SymbolicPred::SymbolicPred()$/;"	f	class:crest::SymbolicPred
+SymbolicPred	base/symbolic_predicate.cc	/^SymbolicPred::SymbolicPred(compare_op_t op, SymbolicExpr* expr)$/;"	f	class:crest::SymbolicPred
+SymbolicPred	base/symbolic_predicate.h	/^class SymbolicPred {$/;"	c	namespace:crest
+TermIt	base/symbolic_expression.h	/^  typedef map<var_t,value_t>::const_iterator TermIt;$/;"	t	class:crest::SymbolicExpr
+U_CHAR	base/basic_types.h	/^enum type_t { U_CHAR = 0,       CHAR = 1,$/;"	e	enum:crest::types::type_t
+U_INT	base/basic_types.h	/^	      U_INT = 4,        INT = 5,$/;"	e	enum:crest::types::type_t
+U_LONG	base/basic_types.h	/^	      U_LONG = 6,       LONG = 7,$/;"	e	enum:crest::types::type_t
+U_LONG_LONG	base/basic_types.h	/^	      U_LONG_LONG = 8,  LONG_LONG = 9 };$/;"	e	enum:crest::types::type_t
+U_SHORT	base/basic_types.h	/^	      U_SHORT = 2,      SHORT = 3,$/;"	e	enum:crest::types::type_t
+UniformRandomSearch	run_crest/concolic_search.cc	/^UniformRandomSearch::UniformRandomSearch(const string& program,$/;"	f	class:crest::UniformRandomSearch
+UniformRandomSearch	run_crest/concolic_search.h	/^class UniformRandomSearch : public Search {$/;"	c	namespace:crest
+UpdateBranchDistances	run_crest/concolic_search.cc	/^void CfgHeuristicSearch::UpdateBranchDistances() {$/;"	f	class:crest::CfgHeuristicSearch
+UpdateCoverage	run_crest/concolic_search.cc	/^bool Search::UpdateCoverage(const SymbolicExecution& ex) {$/;"	f	class:crest::Search
+UpdateCoverage	run_crest/concolic_search.cc	/^bool Search::UpdateCoverage(const SymbolicExecution& ex,$/;"	f	class:crest::Search
+WriteCoverageToFileOrDie	run_crest/concolic_search.cc	/^void Search::WriteCoverageToFileOrDie(const string& file) {$/;"	f	class:crest::Search
+WriteInputToFileOrDie	run_crest/concolic_search.cc	/^void Search::WriteInputToFileOrDie(const string& file,$/;"	f	class:crest::Search
+YICES_DIR	Makefile	/^YICES_DIR=\/home\/awanish\/git\/yices\/$/;"	m
+YicesSolver	base/yices_solver.h	/^class YicesSolver {$/;"	c	namespace:crest
+__CREST_ADD	libcrest/crest.h	/^  __CREST_ADD       =  0,$/;"	e	enum:__anon1
+__CREST_ADDR	libcrest/crest.h	127;"	d
+__CREST_AND	libcrest/crest.h	/^  __CREST_AND       =  5,$/;"	e	enum:__anon1
+__CREST_BOOL	libcrest/crest.h	130;"	d
+__CREST_BRANCH_ID	libcrest/crest.h	124;"	d
+__CREST_CONCRETE	libcrest/crest.h	/^  __CREST_CONCRETE  = 18,$/;"	e	enum:__anon1
+__CREST_DIVIDE	libcrest/crest.h	/^  __CREST_DIVIDE    =  3,$/;"	e	enum:__anon1
+__CREST_EQ	libcrest/crest.h	/^  __CREST_EQ        = 12,$/;"	e	enum:__anon1
+__CREST_FUNCTION_ID	libcrest/crest.h	125;"	d
+__CREST_GEQ	libcrest/crest.h	/^  __CREST_GEQ       = 17,$/;"	e	enum:__anon1
+__CREST_GT	libcrest/crest.h	/^  __CREST_GT        = 14,$/;"	e	enum:__anon1
+__CREST_ID	libcrest/crest.h	123;"	d
+__CREST_LEQ	libcrest/crest.h	/^  __CREST_LEQ       = 15,$/;"	e	enum:__anon1
+__CREST_LT	libcrest/crest.h	/^  __CREST_LT        = 16,$/;"	e	enum:__anon1
+__CREST_L_AND	libcrest/crest.h	/^  __CREST_L_AND     = 10,$/;"	e	enum:__anon1
+__CREST_L_NOT	libcrest/crest.h	/^  __CREST_L_NOT     = 21,$/;"	e	enum:__anon1
+__CREST_L_OR	libcrest/crest.h	/^  __CREST_L_OR      = 11,$/;"	e	enum:__anon1
+__CREST_MOD	libcrest/crest.h	/^  __CREST_MOD       =  4,$/;"	e	enum:__anon1
+__CREST_MULTIPLY	libcrest/crest.h	/^  __CREST_MULTIPLY  =  2,$/;"	e	enum:__anon1
+__CREST_NEGATE	libcrest/crest.h	/^  __CREST_NEGATE    = 19,$/;"	e	enum:__anon1
+__CREST_NEQ	libcrest/crest.h	/^  __CREST_NEQ       = 13,$/;"	e	enum:__anon1
+__CREST_NOT	libcrest/crest.h	/^  __CREST_NOT       = 20,$/;"	e	enum:__anon1
+__CREST_OP	libcrest/crest.h	129;"	d
+__CREST_OR	libcrest/crest.h	/^  __CREST_OR        =  6,$/;"	e	enum:__anon1
+__CREST_SHIFT_L	libcrest/crest.h	/^  __CREST_SHIFT_L   =  8,$/;"	e	enum:__anon1
+__CREST_SHIFT_R	libcrest/crest.h	/^  __CREST_SHIFT_R   =  9,$/;"	e	enum:__anon1
+__CREST_SUBTRACT	libcrest/crest.h	/^  __CREST_SUBTRACT  =  1,$/;"	e	enum:__anon1
+__CREST_VALUE	libcrest/crest.h	126;"	d
+__CREST_XOR	libcrest/crest.h	/^  __CREST_XOR       =  7,$/;"	e	enum:__anon1
+__CrestApply1	libcrest/crest.cc	/^void __CrestApply1(__CREST_ID id, __CREST_OP op, __CREST_VALUE val) {$/;"	f
+__CrestApply2	libcrest/crest.cc	/^void __CrestApply2(__CREST_ID id, __CREST_OP op, __CREST_VALUE val) {$/;"	f
+__CrestAtExit	libcrest/crest.cc	/^void __CrestAtExit() {$/;"	f
+__CrestBranch	libcrest/crest.cc	/^void __CrestBranch(__CREST_ID id, __CREST_BRANCH_ID bid, __CREST_BOOL b) {$/;"	f
+__CrestCall	libcrest/crest.cc	/^void __CrestCall(__CREST_ID id, __CREST_FUNCTION_ID fid) {$/;"	f
+__CrestChar	libcrest/crest.cc	/^void __CrestChar(char* x) {$/;"	f
+__CrestCharTrace	libcrest/crest.cc	/^void __CrestCharTrace(char* x, char c, char* iprange) {$/;"	f
+__CrestClearStack	libcrest/crest.cc	/^void __CrestClearStack(__CREST_ID id) {$/;"	f
+__CrestGetTimeStamp	libcrest/crest.cc	/^int __CrestGetTimeStamp() {$/;"	f
+__CrestHandleReturn	libcrest/crest.cc	/^void __CrestHandleReturn(__CREST_ID id, __CREST_VALUE val) {$/;"	f
+__CrestInit	libcrest/crest.cc	/^void __CrestInit() {$/;"	f
+__CrestInt	libcrest/crest.cc	/^void __CrestInt(int* x) {$/;"	f
+__CrestIntTrace	libcrest/crest.cc	/^void __CrestIntTrace(int* x, int c, char* iprange) {$/;"	f
+__CrestIntTrace_1	libcrest/crest.cc	/^void __CrestIntTrace_1(int* x, int c, char* iprange) {$/;"	f
+__CrestLoad	libcrest/crest.cc	/^void __CrestLoad(__CREST_ID id, __CREST_ADDR addr, __CREST_VALUE val) {$/;"	f
+__CrestLogPC	libcrest/crest.cc	/^void __CrestLogPC(unsigned int x) {$/;"	f
+__CrestLogPCOnGdbQuery	libcrest/crest.cc	/^void __CrestLogPCOnGdbQuery(unsigned int x) {$/;"	f
+__CrestLogSpec	libcrest/crest.cc	/^void __CrestLogSpec(char *op,int *op1,int *op2)$/;"	f
+__CrestLogState	libcrest/crest.cc	/^void __CrestLogState(unsigned int x, int r_w, int line, char* varname, int val, int *addr) {$/;"	f
+__CrestLogState_1	libcrest/crest.cc	/^void __CrestLogState_1(unsigned int x) {$/;"	f
+__CrestLogState_gdb	libcrest/crest.cc	/^void __CrestLogState_gdb(unsigned int x) {$/;"	f
+__CrestPrint	libcrest/crest.cc	/^void __CrestPrint(unsigned int x, int r_w, int line, char* varname, int val, int *addr) {$/;"	f
+__CrestPrintInput	libcrest/crest.cc	/^void __CrestPrintInput(char *name,int val){$/;"	f
+__CrestReturn	libcrest/crest.cc	/^void __CrestReturn(__CREST_ID id) {$/;"	f
+__CrestShort	libcrest/crest.cc	/^void __CrestShort(short* x) {$/;"	f
+__CrestShortTrace	libcrest/crest.cc	/^void __CrestShortTrace(short* x, short c, char* iprange) {$/;"	f
+__CrestStore	libcrest/crest.cc	/^void __CrestStore(__CREST_ID id, __CREST_ADDR addr) {$/;"	f
+__CrestUChar	libcrest/crest.cc	/^void __CrestUChar(unsigned char* x) {$/;"	f
+__CrestUCharTrace	libcrest/crest.cc	/^void __CrestUCharTrace(unsigned char* x, unsigned char c, char* iprange) {$/;"	f
+__CrestUInt	libcrest/crest.cc	/^void __CrestUInt(unsigned int* x) {$/;"	f
+__CrestUIntTrace	libcrest/crest.cc	/^void __CrestUIntTrace(unsigned int* x, unsigned int c, char* iprange) {$/;"	f
+__CrestUShort	libcrest/crest.cc	/^void __CrestUShort(unsigned short* x) {$/;"	f
+__CrestUShortTrace	libcrest/crest.cc	/^void __CrestUShortTrace(unsigned short* x, unsigned short c, char* iprange) {$/;"	f
+__CrestVarMap	libcrest/crest.cc	/^void __CrestVarMap(void* addr, char* name, int tp, char* trigger="true") {$/;"	f
+__CrestVarMap_1	libcrest/crest.cc	/^void __CrestVarMap_1(void* addr, char* name, int tp, char* trigger) {$/;"	f
+__CrestVarMap_gdb	libcrest/crest.cc	/^void __CrestVarMap_gdb(long unsigned int addr, char* name, int tp, char* trigger) {$/;"	f
+__SKIP	libcrest/crest.h	172;"	d
+__gnu_cxx	process_cfg/process_cfg.cc	/^namespace __gnu_cxx {$/;"	n	file:
+addr_t	base/basic_types.h	/^typedef unsigned long int addr_t;$/;"	t	namespace:crest
+adj_list_t	process_cfg/process_cfg.cc	/^typedef vector< pair<int,size_t> > adj_list_t;$/;"	t	file:
+binary_op_t	base/basic_types.h	/^enum binary_op_t { ADD, SUBTRACT, MULTIPLY, CONCRETE };$/;"	g	namespace:crest::ops
+branch_count_	run_crest/concolic_search.h	/^  vector<unsigned int> branch_count_;$/;"	m	class:crest::Search
+branch_function_	run_crest/concolic_search.h	/^  vector<function_id_t> branch_function_;$/;"	m	class:crest::Search
+branch_id_t	base/basic_types.h	/^typedef int branch_id_t;$/;"	t	namespace:crest
+branches	base/symbolic_path.h	/^  const vector<branch_id_t>& branches() const { return branches_; }$/;"	f	class:crest::SymbolicPath
+branches_	base/symbolic_path.h	/^  vector<branch_id_t> branches_;$/;"	m	class:crest::SymbolicPath
+branches_	run_crest/concolic_search.h	/^  vector<branch_id_t> branches_;$/;"	m	class:crest::Search
+cfg_	run_crest/concolic_search.h	/^  vector<nbhr_list_t> cfg_;$/;"	m	class:crest::CfgHeuristicSearch
+cfg_rev_	run_crest/concolic_search.h	/^  vector<nbhr_list_t> cfg_rev_;$/;"	m	class:crest::CfgHeuristicSearch
+coeff_	base/symbolic_expression.h	/^  map<var_t,value_t> coeff_;$/;"	m	class:crest::SymbolicExpr
+compare_op_t	base/basic_types.h	/^enum compare_op_t { EQ = 0, NEQ = 1, GT = 2, LE = 3, LT = 4, GE = 5 };$/;"	g	namespace:crest::ops
+concrete	base/symbolic_interpreter.h	/^    value_t concrete;$/;"	m	struct:crest::SymbolicInterpreter::StackElem
+const_	base/symbolic_expression.h	/^  value_t const_;$/;"	m	class:crest::SymbolicExpr
+const_nbhr_it	process_cfg/process_cfg.cc	/^typedef adj_list_t::const_iterator const_nbhr_it;$/;"	t	file:
+const_term	base/symbolic_expression.h	/^  value_t const_term() const { return const_; }$/;"	f	class:crest::SymbolicExpr
+constraints	base/symbolic_path.h	/^  const vector<SymbolicPred*>& constraints() const { return constraints_; }$/;"	f	class:crest::SymbolicPath
+constraints_	base/symbolic_path.h	/^  vector<SymbolicPred*> constraints_;$/;"	m	class:crest::SymbolicPath
+constraints_idx	base/symbolic_path.h	/^  const vector<size_t>& constraints_idx() const { return constraints_idx_; }$/;"	f	class:crest::SymbolicPath
+constraints_idx_	base/symbolic_path.h	/^  vector<size_t> constraints_idx_;$/;"	m	class:crest::SymbolicPath
+covered_	run_crest/concolic_search.h	/^  vector<bool> covered_;$/;"	m	class:crest::Search
+crest	base/basic_types.cc	/^namespace crest {$/;"	n	file:
+crest	base/basic_types.h	/^namespace crest {$/;"	n
+crest	base/symbolic_execution.cc	/^namespace crest {$/;"	n	file:
+crest	base/symbolic_execution.h	/^namespace crest {$/;"	n
+crest	base/symbolic_expression.cc	/^namespace crest {$/;"	n	file:
+crest	base/symbolic_expression.h	/^namespace crest {$/;"	n
+crest	base/symbolic_interpreter.cc	/^namespace crest {$/;"	n	file:
+crest	base/symbolic_interpreter.h	/^namespace crest {$/;"	n
+crest	base/symbolic_path.cc	/^namespace crest {$/;"	n	file:
+crest	base/symbolic_path.h	/^namespace crest {$/;"	n
+crest	base/symbolic_predicate.cc	/^namespace crest {$/;"	n	file:
+crest	base/symbolic_predicate.h	/^namespace crest {$/;"	n
+crest	base/yices_solver.cc	/^namespace crest {$/;"	n	file:
+crest	base/yices_solver.h	/^namespace crest {$/;"	n
+crest	run_crest/concolic_search.cc	/^namespace crest {$/;"	n	file:
+crest	run_crest/concolic_search.h	/^namespace crest {$/;"	n
+cur_ex_	run_crest/concolic_search.h	/^  SymbolicExecution cur_ex_;$/;"	m	class:crest::UniformRandomSearch
+dijkstra_bounded_shortest_paths	process_cfg/process_cfg.cc	/^void dijkstra_bounded_shortest_paths$/;"	f
+dist_	run_crest/concolic_search.h	/^  vector<size_t> dist_;$/;"	m	class:crest::CfgHeuristicSearch
+edge_t	process_cfg/process_cfg.cc	/^typedef pair<int,int> edge_t;$/;"	t	file:
+ex_	base/symbolic_interpreter.h	/^  SymbolicExecution ex_;$/;"	m	class:crest::SymbolicInterpreter
+ex_	run_crest/concolic_search.h	/^  SymbolicExecution ex_;$/;"	m	class:crest::RandomInputSearch
+ex_	run_crest/concolic_search.h	/^  SymbolicExecution ex_;$/;"	m	class:crest::RandomSearch
+execution	base/symbolic_interpreter.h	/^  const SymbolicExecution& execution() const { return ex_; }$/;"	f	class:crest::SymbolicInterpreter
+expr	base/symbolic_interpreter.h	/^    SymbolicExpr* expr;  \/\/ NULL to indicate concrete.$/;"	m	struct:crest::SymbolicInterpreter::StackElem
+expr	base/symbolic_predicate.h	/^  const SymbolicExpr& expr() const { return *expr_; }$/;"	f	class:crest::SymbolicPred
+expr_	base/symbolic_predicate.h	/^  SymbolicExpr* expr_;$/;"	m	class:crest::SymbolicPred
+foo	base/symbolic_interpreter.cc	/^    int foo(int state_id){$/;"	f	namespace:crest
+function_id_t	base/basic_types.h	/^typedef unsigned int function_id_t;$/;"	t	namespace:crest
+graph_t	process_cfg/process_cfg.cc	/^typedef vector<adj_list_t> graph_t;$/;"	t	file:
+hash	process_cfg/process_cfg.cc	/^  template<> struct hash<string> {$/;"	s	namespace:__gnu_cxx	file:
+id_t	base/basic_types.h	/^typedef int id_t;$/;"	t	namespace:crest
+inputs	base/symbolic_execution.h	/^  const vector<value_t>& inputs() const { return inputs_; }$/;"	f	class:crest::SymbolicExecution
+inputs_	base/symbolic_execution.h	/^  vector<value_t> inputs_;$/;"	m	class:crest::SymbolicExecution
+iters_left_	run_crest/concolic_search.h	/^  int iters_left_;$/;"	m	class:crest::CfgHeuristicSearch
+kCallId	base/basic_types.h	/^static const branch_id_t kCallId = -1;$/;"	m	namespace:crest
+kInfiniteDistance	run_crest/concolic_search.h	/^  static const size_t kInfiniteDistance = 10000;$/;"	m	class:crest::CfgHeuristicSearch
+kMaxValue	base/basic_types.cc	/^const value_t kMaxValue[] = {$/;"	m	namespace:crest	file:
+kMaxValueStr	base/basic_types.cc	/^const char* kMaxValueStr[] = {$/;"	m	namespace:crest	file:
+kMinValue	base/basic_types.cc	/^const value_t kMinValue[] = {$/;"	m	namespace:crest	file:
+kMinValueStr	base/basic_types.cc	/^const char* kMinValueStr[] = {$/;"	m	namespace:crest	file:
+kOpTable	libcrest/crest.cc	/^static const int kOpTable[] =$/;"	v	file:
+kReturnId	base/basic_types.h	/^static const branch_id_t kReturnId = -2;$/;"	m	namespace:crest
+main	process_cfg/process_cfg.cc	/^int main(void) {$/;"	f
+main	run_crest/run_crest.cc	/^int main(int argc, char* argv[]) {$/;"	f
+main	tools/print_execution.cc	/^int main(void) {$/;"	f
+max_branch_	run_crest/concolic_search.h	/^  branch_id_t max_branch_;$/;"	m	class:crest::Search
+max_depth_	run_crest/concolic_search.h	/^  int max_depth_;$/;"	m	class:crest::BoundedDepthFirstSearch
+max_depth_	run_crest/concolic_search.h	/^  size_t max_depth_;$/;"	m	class:crest::UniformRandomSearch
+max_function_	run_crest/concolic_search.h	/^  function_id_t max_function_;$/;"	m	class:crest::Search
+max_iters_	run_crest/concolic_search.h	/^  const int max_iters_; $/;"	m	class:crest::Search
+mem_	base/symbolic_interpreter.h	/^  map<addr_t,SymbolicExpr*> mem_;$/;"	m	class:crest::SymbolicInterpreter
+mutable_inputs	base/symbolic_execution.h	/^  vector<value_t>* mutable_inputs() { return &inputs_; }$/;"	f	class:crest::SymbolicExecution
+mutable_path	base/symbolic_execution.h	/^  SymbolicPath* mutable_path() { return &path_; }$/;"	f	class:crest::SymbolicExecution
+mutable_vars	base/symbolic_execution.h	/^  map<var_t,type_t>* mutable_vars() { return &vars_; }$/;"	f	class:crest::SymbolicExecution
+names_	base/symbolic_interpreter.h	/^  map<addr_t,string*> names_;$/;"	m	class:crest::SymbolicInterpreter
+names_trigger_	base/symbolic_interpreter.h	/^  map<addr_t,string*> names_trigger_;$/;"	m	class:crest::SymbolicInterpreter
+names_typs_	base/symbolic_interpreter.h	/^  map<addr_t,int> names_typs_;$/;"	m	class:crest::SymbolicInterpreter
+nbhr_it	process_cfg/process_cfg.cc	/^typedef adj_list_t::iterator nbhr_it;$/;"	t	file:
+nbhr_list_t	run_crest/concolic_search.h	/^  typedef vector<branch_id_t> nbhr_list_t;$/;"	t	class:crest::CfgHeuristicSearch
+num_covered_	run_crest/concolic_search.h	/^  unsigned int num_covered_;$/;"	m	class:crest::Search
+num_inner_lucky_successes_	run_crest/concolic_search.h	/^  unsigned num_inner_lucky_successes_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_nonzero_successes_	run_crest/concolic_search.h	/^  unsigned num_inner_nonzero_successes_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_pred_fails_	run_crest/concolic_search.h	/^  unsigned num_inner_pred_fails_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_recursive_successes_	run_crest/concolic_search.h	/^  unsigned num_inner_recursive_successes_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_solves_	run_crest/concolic_search.h	/^  unsigned num_inner_solves_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_successes_pred_fail_	run_crest/concolic_search.h	/^  unsigned num_inner_successes_pred_fail_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_unsats_	run_crest/concolic_search.h	/^  unsigned num_inner_unsats_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inner_zero_successes_	run_crest/concolic_search.h	/^  unsigned num_inner_zero_successes_;$/;"	m	class:crest::CfgHeuristicSearch
+num_inputs_	base/symbolic_interpreter.h	/^  unsigned int num_inputs_;$/;"	m	class:crest::SymbolicInterpreter
+num_iters_	run_crest/concolic_search.h	/^  int num_iters_;$/;"	m	class:crest::Search
+num_solve_all_concrete_	run_crest/concolic_search.h	/^  unsigned num_solve_all_concrete_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solve_no_paths_	run_crest/concolic_search.h	/^  unsigned num_solve_no_paths_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solve_pred_fails_	run_crest/concolic_search.h	/^  unsigned num_solve_pred_fails_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solve_recurses_	run_crest/concolic_search.h	/^  unsigned num_solve_recurses_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solve_sat_attempts_	run_crest/concolic_search.h	/^  unsigned num_solve_sat_attempts_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solve_successes_	run_crest/concolic_search.h	/^  unsigned num_solve_successes_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solve_unsats_	run_crest/concolic_search.h	/^  unsigned num_solve_unsats_;$/;"	m	class:crest::CfgHeuristicSearch
+num_solves_	run_crest/concolic_search.h	/^  unsigned num_solves_;$/;"	m	class:crest::CfgHeuristicSearch
+num_top_solve_successes_	run_crest/concolic_search.h	/^  unsigned num_top_solve_successes_;$/;"	m	class:crest::CfgHeuristicSearch
+num_top_solves_	run_crest/concolic_search.h	/^  unsigned num_top_solves_;$/;"	m	class:crest::CfgHeuristicSearch
+op	base/symbolic_predicate.h	/^  compare_op_t op() const { return op_; }$/;"	f	class:crest::SymbolicPred
+op_	base/symbolic_predicate.h	/^  compare_op_t op_;$/;"	m	class:crest::SymbolicPred
+operator ()	process_cfg/process_cfg.cc	/^    size_t operator()(const string& x) const {$/;"	f	struct:__gnu_cxx::hash
+operator ()	run_crest/concolic_search.cc	/^  bool operator()(const ScoredBranch& a, const ScoredBranch& b) const {$/;"	f	struct:crest::__anon2::ScoredBranchComp
+operator *=	base/symbolic_expression.cc	/^    const SymbolicExpr& SymbolicExpr::operator*=(value_t c) {$/;"	f	class:crest::SymbolicExpr
+operator +=	base/symbolic_expression.cc	/^    const SymbolicExpr& SymbolicExpr::operator+=(const SymbolicExpr& e) {$/;"	f	class:crest::SymbolicExpr
+operator +=	base/symbolic_expression.cc	/^    const SymbolicExpr& SymbolicExpr::operator+=(value_t c) {$/;"	f	class:crest::SymbolicExpr
+operator -=	base/symbolic_expression.cc	/^    const SymbolicExpr& SymbolicExpr::operator-=(const SymbolicExpr& e) {$/;"	f	class:crest::SymbolicExpr
+operator -=	base/symbolic_expression.cc	/^    const SymbolicExpr& SymbolicExpr::operator-=(value_t c) {$/;"	f	class:crest::SymbolicExpr
+operator ==	base/symbolic_expression.cc	/^    bool SymbolicExpr::operator==(const SymbolicExpr& e) const {$/;"	f	class:crest::SymbolicExpr
+ops	base/basic_types.h	/^namespace ops {$/;"	n	namespace:crest
+paired_branch_	run_crest/concolic_search.h	/^  vector<branch_id_t> paired_branch_;$/;"	m	class:crest::Search
+path	base/symbolic_execution.h	/^  const SymbolicPath& path() const      { return path_; }$/;"	f	class:crest::SymbolicExecution
+path_	base/symbolic_execution.h	/^  SymbolicPath path_;  $/;"	m	class:crest::SymbolicExecution
+pre_symbolic	libcrest/crest.cc	/^static int pre_symbolic;$/;"	v	file:
+pred_	base/symbolic_interpreter.h	/^  SymbolicPred* pred_;$/;"	m	class:crest::SymbolicInterpreter
+prev_ex_	run_crest/concolic_search.h	/^  SymbolicExecution prev_ex_;$/;"	m	class:crest::UniformRandomSearch
+print	base/symbolic_interpreter.cc	/^void SymbolicInterpreter::print(int tid, int r_w, int line, char* name, int val, int *addr){$/;"	f	class:crest::SymbolicInterpreter
+program_	run_crest/concolic_search.h	/^  const string program_;$/;"	m	class:crest::Search
+reachable_branches_	run_crest/concolic_search.h	/^  unsigned int reachable_branches_;$/;"	m	class:crest::Search
+reachable_functions_	run_crest/concolic_search.h	/^  unsigned int reachable_functions_;$/;"	m	class:crest::Search
+reached_	run_crest/concolic_search.h	/^  vector<bool> reached_;$/;"	m	class:crest::Search
+readBranches	process_cfg/process_cfg.cc	/^void readBranches(set<int>* branches) {$/;"	f
+readCfg	process_cfg/process_cfg.cc	/^void readCfg(graph_t* graph) {$/;"	f
+return_value_	base/symbolic_interpreter.h	/^  bool return_value_;$/;"	m	class:crest::SymbolicInterpreter
+stack_	base/symbolic_interpreter.h	/^  vector<StackElem> stack_;$/;"	m	class:crest::SymbolicInterpreter
+start_time_	run_crest/concolic_search.h	/^  time_t start_time_;$/;"	m	class:crest::Search
+state_id	base/symbolic_interpreter.h	/^	int state_id;$/;"	m	class:crest::SymbolicInterpreter
+step_size_	run_crest/concolic_search.h	/^  int step_size_;$/;"	m	class:crest::HybridSearch
+success_ex_	run_crest/concolic_search.h	/^  SymbolicExecution success_ex_;$/;"	m	class:crest::CfgBaselineSearch
+success_ex_	run_crest/concolic_search.h	/^  SymbolicExecution success_ex_;$/;"	m	class:crest::CfgHeuristicSearch
+terms	base/symbolic_expression.h	/^  const map<var_t,value_t>& terms() const { return coeff_; }$/;"	f	class:crest::SymbolicExpr
+total_covered_	run_crest/concolic_search.h	/^  vector<bool> total_covered_;$/;"	m	class:crest::Search
+total_inputs_	base/symbolic_interpreter.h	/^  unsigned int total_inputs_;$/;"	m	class:crest::SymbolicInterpreter
+total_num_covered_	run_crest/concolic_search.h	/^  unsigned int total_num_covered_;$/;"	m	class:crest::Search
+type_t	base/basic_types.h	/^enum type_t { U_CHAR = 0,       CHAR = 1,$/;"	g	namespace:crest::types
+types	base/basic_types.h	/^namespace types {$/;"	n	namespace:crest
+unary_op_t	base/basic_types.h	/^enum unary_op_t { NEGATE, LOGICAL_NOT, BITWISE_NOT };$/;"	g	namespace:crest::ops
+value_t	base/basic_types.h	/^typedef long long int value_t;$/;"	t	namespace:crest
+var_t	base/basic_types.h	/^typedef unsigned int var_t;$/;"	t	namespace:crest
+vars	base/symbolic_execution.h	/^  const map<var_t,type_t>& vars() const { return vars_; }$/;"	f	class:crest::SymbolicExecution
+vars_	base/symbolic_execution.h	/^  map<var_t,type_t>  vars_;$/;"	m	class:crest::SymbolicExecution
+~BoundedDepthFirstSearch	run_crest/concolic_search.cc	/^BoundedDepthFirstSearch::~BoundedDepthFirstSearch() { }$/;"	f	class:crest::BoundedDepthFirstSearch
+~CfgBaselineSearch	run_crest/concolic_search.cc	/^CfgBaselineSearch::~CfgBaselineSearch() { }$/;"	f	class:crest::CfgBaselineSearch
+~CfgHeuristicSearch	run_crest/concolic_search.cc	/^CfgHeuristicSearch::~CfgHeuristicSearch() { }$/;"	f	class:crest::CfgHeuristicSearch
+~HybridSearch	run_crest/concolic_search.cc	/^HybridSearch::~HybridSearch() { }$/;"	f	class:crest::HybridSearch
+~RandomInputSearch	run_crest/concolic_search.cc	/^RandomInputSearch::~RandomInputSearch() { }$/;"	f	class:crest::RandomInputSearch
+~RandomSearch	run_crest/concolic_search.cc	/^RandomSearch::~RandomSearch() { }$/;"	f	class:crest::RandomSearch
+~Search	run_crest/concolic_search.cc	/^Search::~Search() { }$/;"	f	class:crest::Search
+~SymbolicExecution	base/symbolic_execution.cc	/^SymbolicExecution::~SymbolicExecution() { }$/;"	f	class:crest::SymbolicExecution
+~SymbolicExpr	base/symbolic_expression.cc	/^    SymbolicExpr::~SymbolicExpr() { }$/;"	f	class:crest::SymbolicExpr
+~SymbolicPath	base/symbolic_path.cc	/^SymbolicPath::~SymbolicPath() {$/;"	f	class:crest::SymbolicPath
+~SymbolicPred	base/symbolic_predicate.cc	/^SymbolicPred::~SymbolicPred() {$/;"	f	class:crest::SymbolicPred
+~UniformRandomSearch	run_crest/concolic_search.cc	/^UniformRandomSearch::~UniformRandomSearch() { }$/;"	f	class:crest::UniformRandomSearch

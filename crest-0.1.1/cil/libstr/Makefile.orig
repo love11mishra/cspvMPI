@@ -1,0 +1,42 @@
+CC = cc
+LDLIBS = 
+OBJS = 
+CFLAGS = -Wall
+#DFLAGS = -ggdb
+OFLAGS = -02
+DESTDIR = /usr/lib
+TARGETS = libstr.so
+INCLUDE = 
+OWNER = root
+GROUP = root
+LIBOBJS = strip_return.o gc_content.o case.o inputchar.o
+MAJOR = 0
+MINOR = 0
+MICRO = 1
+HEADER = str.h
+INC_DIR = /usr/include
+
+all: ${TARGETS}.${MAJOR}.${MINOR}.${MICRO}
+
+.c.o:
+	${CC} ${CFLAGS}	${DFLAGS} ${OFLAGS} -fPIC -c $< ${INCLUDE}
+
+${TARGETS}.${MAJOR}.${MINOR}.${MICRO}: ${LIBOBJS}
+	${CC} ${DFLAGS} -shared -Wl,-soname,${TARGETS}.${MAJOR} -o ${TARGETS}.${MAJOR}.${MINOR}.${MICRO} ${LIBOBJS} -lc
+                
+strip_return.o: strip_return.c
+gc_content.o: gc_content.c
+case.o: case.c
+inputchar.o: inputchar.c
+
+install: ${TARGETS}.${MAJOR}.${MINOR}.${MICRO} ${HEADER}
+	chmod 755 ${TARGETS}.${MAJOR}.${MINOR}.${MICRO}
+	cp ${TARGETS}.${MAJOR}.${MINOR}.${MICRO} ${DESTDIR}
+	cp ${HEADER} ${INC_DIR}
+	chown ${OWNER}:${GROUP} ${DESTDIR}/${TARGETS}.${MAJOR}.${MINOR}.${MICRO} ${INC_DIR}/${HEADER}
+	ln -sf ${DESTDIR}/${TARGETS}.${MAJOR}.${MINOR}.${MICRO} ${DESTDIR}/${TARGETS}.${MAJOR}	
+	ln -sf ${DESTDIR}/${TARGETS}.${MAJOR} ${DESTDIR}/${TARGETS}
+
+clean:  
+	rm -f *.o ${TARGETS}.*.*.* *~
+	

@@ -1,0 +1,576 @@
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:10:49 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 3
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:10:49 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:12:44 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.0 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:12:44 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:12:44 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.0 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:12:44 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:13:50 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:13:50 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:14:45 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:14:45 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:15:23 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.0 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:15:23 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Fri Jun 18 22:15:23 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Fri Jun 18 22:15:23 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sat Jun 19 13:30:17 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sat Jun 19 13:30:18 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sat Jun 19 13:30:18 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.0 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sat Jun 19 13:30:18 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sun Jun 20 08:35:21 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sun Jun 20 08:35:21 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sun Jun 20 08:36:16 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sun Jun 20 08:36:16 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sun Jun 20 08:36:16 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sun Jun 20 08:36:16 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sun Jun 20 08:36:16 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sun Jun 20 08:36:16 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sun Jun 20 08:36:16 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sun Jun 20 08:36:16 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sat Jun 26 10:32:27 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 4
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sat Jun 26 10:32:27 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sat Jun 26 10:33:39 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 6
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.1 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.1 seconds
+
+depSolver(): finished @ Sat Jun 26 10:33:40 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sat Jun 26 10:34:16 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 8
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.2 seconds
+TIME IN ASSEMBLY: 		0.0 seconds
+TIME IN SOLVER: 		0.0 seconds
+TIME IN POST-PROCESSING: 	0.0 seconds
+TOTAL EXECUTION TIME: 		0.2 seconds
+
+depSolver(): finished @ Sat Jun 26 10:34:16 2021
+
+
+********************************************************************************
+
+********************************************************************************
+depSolver-mpi Version 1.0 (Parallel).
+
+Copyright 2006, 2008 Carlos Rosales Fernandez and IHPC (A*STAR).
+License: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+********************************************************************************
+
+depSolver-mpi(): started @ Sat Jun 26 10:36:26 2021
+
+Using 10 nodes and 2 tria3 elements to solve AC electrostatic problem
+Number of interfaces: 1
+Number of materials: 2
+Number of processors: 10
+
+depSolver(): performing matrix assembly ...
+depSolver(): solving linear system with GMRES ...
+depSolver(): performing postProcessing tasks ...
+
+*** depSolver(): performance analysis ***
+TIME READING INPUT: 		0.2 seconds
+TIME IN ASSEMBLY: 		0.1 seconds
+TIME IN SOLVER: 		0.1 seconds
+TIME IN POST-PROCESSING: 	0.1 seconds
+TOTAL EXECUTION TIME: 		0.4 seconds
+
+depSolver(): finished @ Sat Jun 26 10:36:26 2021
+
+
+********************************************************************************
+

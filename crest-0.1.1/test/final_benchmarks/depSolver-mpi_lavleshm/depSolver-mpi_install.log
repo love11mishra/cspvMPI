@@ -1,0 +1,22 @@
+Starting installation...
+
+Working Directory : /home/lavleshm/Academic/mpi_verify/crest-0.1.1/test/Artifact-Benchmark/depSolver-mpi_lavleshm
+
+Compiling depSolver-mpi binaries.... Done.
+
+Building support utilities:
+
+Compiling break.......... Done.
+Compiling fieldPost...... Failed.
+Compiling forcePost...... Done.
+Compiling gplotFormat.... Done.
+Compiling meshgen-std.... Done.
+Compiling meshgen-vtk.... Done.
+Compiling p2b............ Done.
+Compiling potPost........ Done.
+
+*** WARNING: Errors detected. Check depSolver-mpi_install.err. ***
+***          Installation may be incomplete.               ***
+
+======================================================================
+

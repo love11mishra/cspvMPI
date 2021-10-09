@@ -1,0 +1,14 @@
+#!/bin/bash
+
+DIR=/home/aakankha/PHD/buggyrepo/BugInjection/crest/crest-0.1.1/
+CILLY=${DIR}/cil/bin/cilly
+#CILLY=cilly
+
+TARGET=`expr $1 : '\(.*\)\.c'`
+
+rm -f idcount stmtcount funcount cfg_func_map cfg branches cfg_branches
+
+${CILLY} $1 -o ${TARGET} --save-temps --doCrestInstrument \
+    -I${DIR}/include -L${DIR}/lib -lcrest -lstdc++ 
+
+    ${DIR}/bin/process_cfg

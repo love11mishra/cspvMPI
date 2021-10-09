@@ -1,0 +1,8 @@
+MPI_Send(0, 1, 23)
+MPI_Send(2, 1, 24)
+MPI_Isend(3, 1, 23, request1)
+MPI_Recv(1, 0, 23)
+MPI_Recv(1, 2, 24)
+MPI_Wait(request1)
+MPI_Irecv(1, 3, 23, request2)
+MPI_Wait(request2)
